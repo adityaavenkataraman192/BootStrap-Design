@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Design</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+</head>
+<body>
+    <!--navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid">
+    
+      <a href="#" class="navbar-brand"><img src="./img/logo.png" alt="newbie"></a>
+    
+    <button class="navbar-toggler " data-toggle="collapse" data-target="#collapseexample" >
+      <span class="navbar-toggler-icon "></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="collapseexample">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Connect</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <!--carousel-->
+  <div class="container-fluid">
+<div class="carousel slide" id="slide" data-ride="carousel" >
+  <ul class="carousel-indicators">
+   <li class="active" data-target="#slide" data-slide-to="0" ></li>
+   <li  data-target="#slide" data-slide-to="1" ></li>
+   <li  data-target="#slide" data-slide-to="2" ></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item  active">
+      <img   class="img-fluid w-100" src="./img/background.png" alt="first slide">
+      <div class="carousel-caption text-center">
+        <h5 class=" text-center mt-3 ">BOOTSTRAP</h5>
+        <h6>Complete Website Layout<h3>
+        <button class="btn btn-outline-light" type="button">View Demo</button>
+        <button class="btn btn-primary">Get Strated</button>
+      </div>
+    </div>
+    <div class="carousel-item ">
+      <img  class="img-fluid w-100" src="./img/background2.png" alt="second slide">
+    </div>
+    <div class="carousel-item ">
+      <img  class="img-fluid w-100" src="./img/background3.png" alt="third slide">
+    </div>
+  </div>
+</div>
+</div>
+
+<!--jummbotron-->
+<div class="container-fluid">
+  <div class="jumbotron ">
+    <div class="row">
+      <div class=" col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+    <p class="lead">A web Hosting service allows individuals and organizationto make their website accessible via the world wide web</p>
+  </div>
+  <div class=" col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+    <button class="btn btn-outline-secondary">Web Hosting</button>
+  </div>
+  </div>
+  </div>
+</div>
+<!--Welcome section-->
+<div class="container-fluid">
+  <div class="row welcome text-center">
+    <div class="col-12">
+  <h3 class="display-5">Built with Ease</h3>
+<hr class="w-50">
+</div>
+
+<div class="col-12">
+  <p class="lead ">Welcome to Bootstrap4 tutorial! 
+    Bootstrapis a free and open-source front-end library with html and css based
+     web design</p>
+</div>
+</div>
+</div>
+<!--THree images section-->
+<div class="container-fluid mt-5">
+  <div class="row text-center">
+    <div class="col-md-4 col-sm-6 col-xs-12">
+      <i class="fas fa-code fa-2x text-warning "></i>
+      <h3>Html5</h3>
+      <p class="lead">Build the lateest version of Html,Html5.</p>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 ">
+      <i class="fas fa-bold fa-2x "></i>
+      <h3>Bootstrap</h3>
+      <p class="lead">Build the lateest version of Bootstrap,Bootstrap4.</p>
+    </div>
+    <div class="col-md-4 col-sm-12 ">
+      <i class="fab fa-css3 fa-2x text-primary"></i>
+      <h3>Css3</h3>
+      <p class="lead">Build the lateest version of Css,Css3.</p>
+    </div>
+  </div>
+ <hr class="w-80">
+</div>
+<!--Two-section-->
+<div class="container-fluid">
+  <div class="row g-4 p-5">
+    <div class="col-md-12 col-lg-6">
+      <h3>If You build it...</h3>
+      <p class="lead">The column will stack automatically on top of each other when the screen is less then 578px</p>
+      <p class="lead">Resize the browser window to see the effect.Responsive webdesign had become more important as the amount of mobile traffic now account for more than half of total internet traffic</p>
+      <p class="lead">It can also display the web page differently depending on the screen size or viewing device</p>
+      <button class="btn btn-primary">Learn More</button>
+    </div>
+    <div class="col-md-12 col-lg-6 mt-3">
+      <img class="img-fluid" src="./img/desk.png" alt="desk">
+    </div>
+  </div>
+</div>
+<!--Fixed image background-->
+<div class="container-fluid">
+  <div class="card">
+    <div class="card-body">
+      <img class="img-fluid " src="./img/mac.png" alt="">
+      <button class="btn btn-secondary btn-block" data-toggle="collapse" data-target="#gif" >Click to have fun!!</button>
+      <div class="collapse" id="gif">
+        <div class="container-fluid">
+          <div class="row">
+           <div class="col-md-3 col-sm-6">
+             <img src="./img/gif/panda.gif" alt="" class="img-fluid gif">
+            </div>
+            <div class="col-md-3 col-sm-6">
+             <img src="./img/gif/poo.gif" alt="" class="img-fluid gif">
+            </div>
+            <div class="col-md-3 col-sm-6">
+             <img src="./img/gif/unicorn.gif" alt="" class="img-fluid gif">
+            </div>
+            <div class="col-md-3 col-sm-6">
+             <img src="./img/gif/chicken.gif" alt="" class="img-fluid gif">
+           </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+  </div>
+ 
+</div>
+<!--Meet the team-->
+<div class="container-fluid mt-3">
+ 
+
+  <div class="row p-5 g-4">
+    <div class="col-12">
+      <h3 class="text-center " >Meet the team</h3>
+      <hr class="w-50">
+     </div>
+   
+</div>
+</div>
+<!--card-->
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      <div class="card mt-3">
+        <img src=".//img/team1.png" alt="" class="card-img ">
+        <div class="card-body">
+      
+      <h3 class="card-title">Jhon Doe</h3>
+      <p class="card-text">Joe is an internet enterprenur with almost 20 years of experience</p>
+      <button class="btn btn-outline-secondary">See Profile</button>
+    </div>
+  </div>
+      </div>
+      <div class="col-md">
+        <div class="card mt-3" >
+          <img src=".//img/team2.png" alt="" class="card-img ">
+          <div class="card-body">
+       
+        <h3 class="card-title">Mary Jo</h3>
+        <p class="card-text">Mary is an designer with almost 10 years of experience</p>
+        <button class="btn btn-outline-secondary">See Profile</button>
+      </div>
+    </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-3" >
+            <img src=".//img/team3.png" alt="" class="card-img ">
+            <div class="card-body">
+  
+          <h3 class="card-title">Phil Ho</h3>
+          <p class="card-text">Mary is an developer with over 5 years of experience</p>
+          <button class="btn btn-outline-secondary">See Profile</button>
+        </div>
+      </div>
+          </div>
+  </div>
+
+</div>
+<hr class="w-80">
+<!--two column section-->
+<div class="container-fluid mt-5">
+  <div class="row g-4 p-5">
+    <div class="col-md-12 col-lg-6">
+      <h3>Our Philosophy</h3>
+      <p class="lead">We know the graetness in disruptive are required bold ambition curious,talent and a culture that behaves we're smarter together.</p>
+      <p class="lead">We approach every challange hollistically with best-in-class expertise in data creativity,media,technology and more we call this Alchemy.it has the power to build our client's brandsand transform their business.And while it may seemlike magic.we've got it down to a science.</p>
+      
+      
+    </div>
+    <div class="col-md-12 col-lg-6 mt-3">
+      <img class="img-fluid" src="./img/bootstrap2.png" alt="bootstrap">
+    </div>
+  </div>
+  <hr class="w-80">
+</div>
+<!--connect-->
+<div class="container-fluid">
+<div class="row text-center ">
+  <div class="col-12">
+    <h3>Connect</h3>
+  </div>
+  <div class="col-12 mt-4">
+    <a  href="#"><i class="fab fa-facebook-square fa-2x text-info"></i></a>
+    <a class="ml-3" href="#"><i class="fab fa-twitter fa-2x text-primary "></i></a>
+    <a class="ml-3"href="#"><i class="fab fa-google-plus-g fa-2x text-danger "></i></a>
+    <a class="ml-3"href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    <a class="ml-3"href="#"><i class="fab fa-youtube fa-2x text-danger"></i></a>
+  </div>
+</div>
+</div>
+<!--Footer-->
+<div class="container-fluid bg-dark text-light mt-5">
+  <div class="row p-5 text-center">
+    <div class="col-md-4 ">
+      <img src="./img/w3newbie.png" alt="">
+      <p class="mt-2 ml-3"> 555-555-5555</p>
+      <p class=" ml-3"> email@mymail.com</p>
+      <p class=" ml-3">100 street Name</p>
+     <p class=" ml-3"> city,state,00000</p>
+      
+    </div>
+    <div class="col-md-4  ">
+    
+     <h3>Our Hours</h3>
+      
+      <p class="mt-4 ml-2"> Monday:9am-5pm</p>
+      <p class=" ml-2"> Saturday:10am-4pm</p>
+      <p class=" ml-2">Sunday:closed</p>
+       
+    </div>
+    <div class="col-md-4 ">
+     
+      <h3>Service Area</h3>
+      <p class="mt-4 ml-2"> city,state,00000</p>
+      <p class=" ml-2"> city,state,00000</p>
+      <p class=" ml-2"> city,state,00000</p>
+     <p class=" ml-2"> city,state,00000</p>
+      
+    </div>
+   
+  </div>
+
+</div>
+<div class="container-fluid bg-secondary text-light">
+  <div class="row text-center">
+    <div class="col-12 ">
+      
+      <h5>&copy; W3newbie.com</h5>
+     </div>
+  </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
